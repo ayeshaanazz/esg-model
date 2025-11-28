@@ -12,7 +12,8 @@ st.set_page_config(
     layout="wide"
 )
 
-API_URL = "API_URL = "https://esg-model.onrender.com/predict"
+API_URL = "https://esg-model.onrender.com/predict"
+
   # your deployed FastAPI endpoint
 
 # ----------------- UTILS -----------------
