@@ -12,7 +12,7 @@ st.set_page_config(
     layout="wide"
 )
 
-API_URL = "https://esg-model.onrender.com/predict"  # your deployed FastAPI endpoint
+API_URL = "https://esg-model.onrender.com"  # your deployed FastAPI endpoint
 
 # ----------------- UTILS -----------------
 def call_esg_api(payload: dict):
@@ -282,7 +282,8 @@ elif page == "API Playground":
             st.code(json.dumps(res, indent=2), language="json")
 
     st.markdown("---")
-    st.caption(f"Current API URL: `{API_URL = "https://esg-model.onrender.com/predict"}`")
+    st.caption(f"Current API URL: `{API_URL}`")
+
 
 
 # 6) ABOUT PROJECT
