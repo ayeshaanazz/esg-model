@@ -18,7 +18,8 @@ API_URL = "https://esg-model.onrender.com"  # your deployed FastAPI endpoint
 def call_esg_api(payload: dict):
     """Call the FastAPI ESG model API and safely handle errors."""
     try:
-        resp = requests.post(API_URL, json=payload, timeout=10)
+        resp = requests.post(API_URL, json=payload, timeout=60)
+
         if resp.status_code == 200:
             return resp.json(), None
         else:
