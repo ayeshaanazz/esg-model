@@ -14,6 +14,7 @@ st.set_page_config(
 
 API_URL = "https://esg-model.onrender.com/predict"
 
+
   # your deployed FastAPI endpoint
 
 # ----------------- UTILS -----------------
@@ -286,6 +287,7 @@ elif page == "API Playground":
 
     st.markdown("---")
     st.caption(f"Current API URL: `{API_URL}`")
+
 
 
 
