@@ -282,7 +282,7 @@ elif page == "API Playground":
             st.code(json.dumps(res, indent=2), language="json")
 
     st.markdown("---")
-    st.caption(f"Current API URL: `{API_URL}`")
+    st.caption(f"Current API URL: `{API_URL = "https://esg-model.onrender.com/predict"}`")
 
 
 # 6) ABOUT PROJECT
